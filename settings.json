@@ -1,0 +1,53 @@
+{
+    "python.linting.enabled": false,
+    "python.linting.pylintArgs": [
+        "--disable=import-error",
+        "--disable=W,C"
+    ],
+    "python.autoComplete.extraPaths": [
+        "D:\\001\\Tools\\MayaDev\\Maya2019\\Python\\Lib\\site-packages"
+    ],
+    "files.autoSave": "afterDelay",
+    "vim.easymotion": true,
+    "vim.sneak": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.leader": "<space>",
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-f>": false
+    },
+    "vim.insertModeKeyBindingsNonRecursive": [{
+        "before": ["j", "j"],
+        "after": ["<Esc>"]
+    }, {
+        "before": ["<C-h>"],
+        "commands": ["cursorHome"]
+    }, {
+        "before": ["<C-l>"],
+        "commands": ["cursorEnd"]
+    }],
+    "vim.normalModeKeyBindingsNonRecursive": [{
+            "before": ["<leader>", "d"],
+            "after": ["d", "d"]
+        },
+        {
+            "before": ["<C-n>"],
+            "commands": [":nohl"]
+        },
+        {
+            "before": ["<C-h>"],
+            "after": ["^"]
+        },
+        {
+            "before": ["<C-l>"],
+            "after": ["$"]
+        },
+    ],
+    "C_Cpp.default.intelliSenseMode": "gcc-x64",
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "cmake.configureOnOpen": true,
+    "C_Cpp.updateChannel": "Insiders",
+}
