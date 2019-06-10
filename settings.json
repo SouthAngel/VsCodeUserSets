@@ -8,6 +8,9 @@
         "D:\\001\\Tools\\MayaDev\\Maya2019\\Python\\Lib\\site-packages"
     ],
     "files.autoSave": "afterDelay",
+	"files.exclude": {
+        "**/*.pyc": true
+    },
     "vim.easymotion": true,
     "vim.sneak": true,
     "vim.incsearch": true,
@@ -48,6 +51,5 @@
     ],
     "C_Cpp.default.intelliSenseMode": "gcc-x64",
     "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
-    "cmake.configureOnOpen": true,
     "C_Cpp.updateChannel": "Insiders",
 }
