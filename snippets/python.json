@@ -32,6 +32,14 @@
 		"prefix": "retret",
 		"body": "ret = ${1:[]}\nreturn ret"
 	},
+	"String fromat 1 %": {
+		"prefix": "%s1",
+		"body": "\"$2%s$3\" % $1"
+	},
+	"String fromat 2 %": {
+		"prefix": "%s2",
+		"body": "\"%s$2%s\" % ($1)"
+	},
 	"Print message quikly": {
 		"prefix": "printm",
 		"body": "print(\"$1\")"

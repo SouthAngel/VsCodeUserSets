@@ -1,4 +1,5 @@
 {
+    "editor.rulers" : [80],
     "python.linting.enabled": false,
     "python.linting.pylintArgs": [
         "--disable=import-error",
@@ -52,4 +53,7 @@
     "C_Cpp.default.intelliSenseMode": "gcc-x64",
     "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
     "C_Cpp.updateChannel": "Insiders",
+    "svn.enableProposedApi": "product",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "workbench.statusBar.visible": true,
 }
